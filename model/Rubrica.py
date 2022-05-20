@@ -5,8 +5,7 @@ class Rubrica:
         self._Rubrica = []
 
     def aggiungiContatto(self, nome, cognome, telefono):
-        contatto = Contatto(nome, cognome, telefono)
-        self._Rubrica.append(contatto)
+        self._Rubrica.append(Contatto(nome, cognome, telefono))
         print("Contatto ",nome," ",cognome, " inserito")
 
     # restituisce una stringa con l'elenco delle voci della rubrica separate

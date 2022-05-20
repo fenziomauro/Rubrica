@@ -1,2 +1,5 @@
-.idea/
-venv/
+venv/bin
+venv
+.idea
+model/__init__.py
+model/__pycache__
